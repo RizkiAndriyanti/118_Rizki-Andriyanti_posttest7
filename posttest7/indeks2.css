@@ -1,0 +1,178 @@
+
+/* font libre franklin bold di main */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@900&family=Roboto:wght@900&family=Sofia&display=swap');
+
+
+.header{
+    background-color: #fdf1c0;
+    height: 100px;
+}
+.headerlogo{
+    float: left;
+    margin-right: 100px;
+}
+input[type=text]{
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 200px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus{
+    width: 50%;
+}
+.home{
+    display: flex;
+    margin-left: 100px;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+#navbar-right {
+    margin-top: -30px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    margin-left: 10px;
+    float: right;
+}
+.navbar a {
+    margin-top: -20px;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 35px;
+}
+.navbar a.active {
+    background-color: #ef7c8e;
+    color: white;
+}
+.container p {
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #5290c9;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 21%;
+    margin: 20px;
+}
+.saya p{
+    text-align: center;
+    color: #5290c9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.foto{
+    box-shadow: 0 2px 8px #fdc0eb;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffbcf0;
+    height: 90px;
+}
+.footer2 {
+    align-items: center;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#glow{
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-align: left;
+    animation: glow 1s ease-in-out infinite alternate;
+
+}
+@-webkit-keyframes glow{
+    from{
+        text-shadow:  0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;;
+    }
+
+    to{
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;;
+    }
+}
+.button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: auto;
+    padding: 10px;
+    background-color: #ff66c4;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+}
+/* posttest3 */
+body{
+    background-color: #fff;
+    transition: .5s;
+}
+input[type="checkbox"]{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 35px;
+    
+    width: 40px;
+    height: 20px;
+    appearance: none;
+    background-color: #5d573f35;
+    outline: none;
+    border-radius: 10px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked{
+    background-color: #5290c9;
+}
+input[type="checkbox"]::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: .5s ease;
+}
+input[type="checkbox"]:checked::before{
+    transform: translateX(20px);
+}
+.dark{
+    background-color: #252d3447;
+    color: #fff;
+}

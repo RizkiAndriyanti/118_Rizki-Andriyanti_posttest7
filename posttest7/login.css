@@ -1,0 +1,67 @@
+/* font buat login dan buat akun */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Libre+Franklin:wght@900&family=Roboto:wght@900&family=Sofia&display=swap');
+
+body{
+    background-color: #7bd7fb;
+}
+.judul_login, p{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: #5290c9;
+}
+.judul_buatakun{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: #5290c9;
+}
+
+.form input[type = "text"],input[type = "password"],input[type = "date"],input[type = "email"],input[type = "file"]{
+    border : 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #f4c3e6;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form input[type = "text"]:focus{
+    width: 280px;
+    border-color: #cfed74;
+}
+
+.form input[type = "submit"]{
+    border: 0;
+    background-color: #cf99f1;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #010101;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(15, 14, 14);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.button1{
+    border-radius: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    background-color: #d98aef;
+    color: black;
+    text-align: center;
+}
